@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.myForm {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 250px;
+  height: auto;
+}
+
+.myTable {
+  width: 90%;
+}
+
+.myTable, .myTable th, .myTable td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+
+.myTable tr td {
+  text-align: center;
+}
+.myTable tr td img {
+  width: 100px;
+}

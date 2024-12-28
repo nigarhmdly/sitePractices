@@ -1,0 +1,135 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.Team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F7F7F7;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        margin: 40px 0px;
+
+    
+
+
+.teamItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    div{
+        width: 300px;
+        background-color: white;
+        img{
+            width: 300px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        span{
+            font-size: 14px;
+            color: red;
+            margin: 5px 0px;
+        }
+    }
+
+}
+
+
+
+
+
+
+        nav{
+            width: 100%;
+            span{
+                color: red;
+                font-size: 18px;
+            }
+            h2{
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .Team{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F7F7F7;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 95%;
+            flex-direction: column;
+            margin: 40px 0px;
+    
+        
+    
+    
+    .teamItem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        div{
+            width: 280px;
+            background-color: white;
+            img{
+                width: 280px;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+                font-size: 20px;
+            }
+            span{
+                font-size: 14px;
+                color: red;
+                margin: 5px 0px;
+            }
+        }
+    
+    }
+    
+    
+    
+    
+    
+    
+            nav{
+                width: 100%;
+                span{
+                    color: red;
+                    font-size: 14px;
+                }
+                h2{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

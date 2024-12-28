@@ -1,0 +1,264 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+header .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #0C2E3E;
+}
+header .top .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+}
+header .top .header .time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px;
+}
+header .top .header .time nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+header .top .header .time nav ul i {
+  color: red;
+}
+header .top .header .time nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 300;
+}
+header .top .header .pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .top .header .pages nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+header .top .header .pages nav ul a {
+  color: white;
+}
+header .top .header .pages nav ul a:hover {
+  color: red;
+}
+header .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+header .bottom div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  padding: 25px 0px;
+}
+header .bottom div img {
+  width: 120px;
+}
+header .bottom div nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+header .bottom div nav ul .ham {
+  display: none;
+}
+header .bottom div nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+@media (max-width: 750px) {
+  header .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #0C2E3E;
+  }
+  header .top .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  header .top .header .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+  }
+  header .top .header .time nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }
+  header .top .header .time nav ul i {
+    color: red;
+  }
+  header .top .header .time nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  header .top .header .pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .top .header .pages nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+  }
+  header .top .header .pages nav ul a {
+    color: white;
+  }
+  header .top .header .pages nav ul a:hover {
+    color: red;
+  }
+  header .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  header .bottom div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px 0px;
+  }
+  header .bottom div img {
+    width: 110px;
+  }
+  header .bottom div nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }
+  header .bottom div nav ul .ham {
+    display: none;
+  }
+  header .bottom div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+  }
+}
+@media (max-width: 550px) {
+  header .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #0C2E3E;
+  }
+  header .top .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  }
+  header .top .header .time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+  }
+  header .top .header .time nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+  }
+  header .top .header .time nav ul i {
+    color: red;
+  }
+  header .top .header .time nav ul a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 300;
+  }
+  header .top .header .pages {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  header .top .header .pages nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+  }
+  header .top .header .pages nav ul a {
+    color: white;
+  }
+  header .top .header .pages nav ul a:hover {
+    color: red;
+  }
+  header .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  header .bottom div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px 0px;
+  }
+  header .bottom div img {
+    width: 110px;
+  }
+  header .bottom div nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    list-style: none;
+  }
+  header .bottom div nav ul .ham {
+    display: block;
+  }
+  header .bottom div nav ul a {
+    display: none;
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+  }
+}
